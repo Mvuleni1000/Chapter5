@@ -2,6 +2,7 @@ package za.ac.cput.chap5.structuralTest.adapterTest;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 import za.ac.cput.chap5.structural_Patterns.adapterPattern.*;
 
 /**
@@ -12,10 +13,10 @@ public class TestAdapter {
     @Before
     public void setUp() throws Exception {}
 
+    @Test
     public void testBrazilianStudent()
     {
         Translator translator = new AmericanStudent();
-        //teachStudent(translator);
 
 
     }
